@@ -23,5 +23,8 @@ if __name__ == '__main__':
     print(f"qq_number={qq_number}")
     print("qq_number={}".format(qq_number))
     main()
+    a = 1
+    f = 3
+    f = 34
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
