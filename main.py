@@ -22,6 +22,6 @@ if __name__ == '__main__':
 
     print(f"qq_number={qq_number}")
     print("qq_number={}".format(qq_number))
-
+    main()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
