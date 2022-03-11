@@ -20,6 +20,11 @@ if __name__ == '__main__':
     qq_number = '1234567'
     qq_password = '123'
 
+    sdvs
+    nymyftm
+
+
+
     print(f"qq_number={qq_number}")
     print("qq_number={}".format(qq_number))
     main()
