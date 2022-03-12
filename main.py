@@ -17,11 +17,11 @@ def main():
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    qq_number = '1234567'
-    qq_password = '123'
+    price_apple = float(input("苹果的单价 = "))
+    weight_apple = float(input("苹果的重量 = "))
 
-    print(f"qq_number={qq_number}")
-    print("qq_number={}".format(qq_number))
+    money = price_apple * weight_apple
+    print(f"money = {money}")
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
