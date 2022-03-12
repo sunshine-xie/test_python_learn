@@ -23,5 +23,17 @@ if __name__ == '__main__':
     money = price_apple * weight_apple
     print(f"money = {money}")
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    name = input("Your name = ")
+    print("my name is %s" % name)
+    print(f"my name is {name}")
+    print("my name is {}".format(name))
+
+    age = int(input("your age = "))
+    # EE
+    if age >= 18:
+        print("able")
+    else:
+        print("unable")
+
+
 
