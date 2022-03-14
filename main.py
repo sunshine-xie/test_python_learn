@@ -19,16 +19,24 @@ def sing():
 
 
 def dance():
-    for i in range(5):
+    for i in range(10):
         print("正在跳舞")
         time.sleep(1)
 
 
 def main():
-    t1 = threading.Thread(target=sing)
+    # 多任务，时间片轮转, 线程调用无先后顺序
+    t1 = threading.Thread(target=sing)  # sing 不能写成 sing()
     t2 = threading.Thread(target=dance)
-    t1.start()
+    t1.start()  # 到这里就跳到 sing 单独执行
+    print("1")
+
     t2.start()
+    print("2")
+
+    while True:
+        print(threading.enumerate())
+        time.sleep(1)
 
 
 # class Cat:
@@ -53,6 +61,7 @@ class Cat:
 if __name__ == '__main__':
 
     main()
+
 
     # print_hi('PyCharm')
     #
